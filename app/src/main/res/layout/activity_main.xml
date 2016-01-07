@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Город:"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get forecast"
+        android:tag="alpha"
+        android:onClick="onClick"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:text="date"
+            android:layout_alignTop="@+id/test"
+            android:layout_toStartOf="@+id/test" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/temp"
+            android:text="temp"
+            android:layout_below="@+id/date"
+            android:layout_toStartOf="@+id/test" />
+<View android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/test"
+    android:layout_below="@+id/button"
+    android:layout_alignStart="@+id/button"
+    android:layout_alignEnd="@+id/button"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pressure"
+        android:id="@+id/pressure"
+        android:layout_below="@+id/temp"
+        android:layout_toStartOf="@+id/test" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/city"
+        android:layout_above="@+id/date"
+        android:layout_toStartOf="@+id/button"
+        android:text="21" />
+
+</RelativeLayout>

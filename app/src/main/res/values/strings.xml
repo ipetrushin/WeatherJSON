@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ClickTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="long_text">To be, or not to be, that is the question;
+    Whether \'tis nobler in the mind to suffer
+    The Slings and Arrows of outrageous Fortune
+    Or to take arms against a sea of troubles,
+    And by opposing, end them. To die, to sleep;
+    No more; and by a sleep to say we end
+    The heart-ache and the thousand natural shocks
+    That flesh is heir to — tis a consummation
+    Devoutly to be wishd. To die, to sleep;</string>
+    <string name="title_activity_another">AnotherActivity</string>
+
+</resources>
